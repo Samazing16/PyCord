@@ -1,5 +1,5 @@
 #PyCord Viewer by RealistikDash
-print("Initialising Pycord Viewer")
+print("You watchin discooooord, leeeeets get into the news!")
 
 #Required imports
 import discord
