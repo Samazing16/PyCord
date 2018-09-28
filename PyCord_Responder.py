@@ -1,7 +1,7 @@
 #PyCord Responder by RealistikDash
 #From https://github.com/RealistikDash/PyCord
-print("Initialising Pycord Responder")
-
+print("Dabber daniel is comin in boiis!!!!")
+#Praise Bob Before Using Or Die
 #All the necessary imports
 import discord
 import asyncio
@@ -46,7 +46,7 @@ bot = discord.Client()
 async def on_ready():
 		pycord.log("Logged into {}".format(bot.user.name))
 		username = input("[Pycord] Enter a username: ")
-		await bot.change_presence(game=discord.Game(name=username + " is using Pycord"))
+		await bot.change_presence(game=discord.Game(name=username + " Has hacked the school system and basically is doing illegal work"))
 		#Welcome message
 		print("Welcome to Pycord {}!".format(username))
 		print(cmdlist)
@@ -59,7 +59,7 @@ async def on_ready():
 			msg = input("Pycord> ")
 			#Checks if the msg is empty
 			if msg == "":
-				pycord.errorLog("Cannot send empty message.")
+				pycord.errorLog("Stupid Uneducated Swine! No Spamming Blanks!")
 
 			#Changes the presence
 			elif msg.startswith("/setgame"):
@@ -110,14 +110,14 @@ async def on_ready():
 				break #Breaks the loop
 			
 			#Sends the shrug emote
-			elif msg.startswith("/shrug"):
+			elif msg.startswith("/Hentai Emote"):
 				await bot.send_message(discord.Object(id=channelId), "`[{}]` ¯\_(ツ)_/¯".format(username))
 
 			#If none of the requirements above are met, send the message
 			else:
 				await bot.send_message(discord.Object(id=channelId), "`[{}]` {}".format(username, msg))
 		
-		pycord.log("Loop broken")
+		pycord.log("Loop ded, dumass")
 
 
 bot.run(botToken) #Connects the bot.
